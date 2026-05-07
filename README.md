@@ -1,7 +1,6 @@
 # 🏥 AthleteX Care — Sports Injury Analytics
 
-**AthleteX Care** is a multi-page Power BI dashboard designed for sports 
-medical teams to track, analyze, and act on athlete injury data across 
+**AthleteX Care dashboard** is a multi-page Power BI dashboard designed for sports medical teams to track, analyze, and act on athlete injury data across 
 competitions, age groups, injury types, and recovery outcomes.
 
 ---
@@ -9,9 +8,8 @@ competitions, age groups, injury types, and recovery outcomes.
 ## 📌 Project Overview
 
 This dashboard gives the AthleteX Medical Team a centralized, filterable 
-view of injury intelligence — from executive KPIs down to individual 
-athlete-level injury records — enabling smarter decisions in sports 
-healthcare management.
+view of injury intelligence from executive KPIs down to individual 
+athlete injury records, enabling smarter decisions in sports healthcare management.
 
 ---
 
@@ -30,35 +28,46 @@ healthcare management.
 | Fracture Recovery Rate    | 80%             |
 
 
-## 📄 Dashboard Pages
-
-### Page 1 — Overview
-- KPI cards: Total Injuries, Expenses, Avg Recovery Days, Top Injury
-- Monthly trend sparklines per KPI
-- Injuries by Age Group (bar chart)
-- Recovery Status breakdown (donut chart)
-- Injuries by Top Injury Type (grouped bar: Cost / Count / Avg Recovery Days)
-- Medical Breakdown by Sports Events
 
 
-### Page 2 — Injury Log
-- Full athlete-level injury history
-- Columns: InjuryID, Player, Gender/Age, Injury Details, Severity & 
-  Recurrence, Sport & Event, Timeline (Injury/Return), Recovery Days, 
-  Workload (20D), Cost, Treatment Outcome
-- Workload status indicators: Normal / Overuse / High Load / Recovery
-- Filters: Severity (Minor / Moderate / Severe) | 
-  Status (Fully Recovered / Recovered with Limitation / Retired)
+
+#### Data Structure
+
+The dataset is structured as a star schema having one fact table and 
+connecting dimension tables.
+
+**FactInjuries** — the fact table representing each unique injury event, 
+containing foreign keys to all dimension tables 
+
+**DimPlayer** —  player name, gender, age, and region.
+
+**DimInjuryType** — categorize each injury across: injury type (Fracture, 
+Muscle Strain)
+
+**DimClub** — club name, sport, and competition level. 
+
+**DimEvent** — event type (Competition, Training, Warm-up)
+
+**DimTreatment** — displays each treatment method to its recorded outcome
+
+
+
+**Important Findings**
+
+Injuries vs Treatment Cost
+15,000 injuries occurred between 2022 and 2025 at a costing €27.70M on treatments. No reduction in injury rate despite data availability from previous years.This is a direct signal that existing reporting structures were not translating into preventive action.
+
+Injury Severity Concentration
+The highest injury severity rates across all competitions are Local Tournament (48.3%), Club Match and Champions League (both 48.8%), and WTA Tour (47.8%). EuroLeague (46.9%), La Liga (46.0%), and Amateur Cup (45.7%) also sit consistently above the programme average. These are predictable, competition-specific risk environments the medical team can plan resources around in advance.
+
+Injuries by Age Group
+Athletes aged 31–40 recorded the highest injury volume at 6,100 cases, followed closely by the 21–30 grouo at 5,900, together accounting for 80% of all injuries in the dataset. The under-20 group contributed 3,000 cases, the lowest volume but a population that warrants targeted load management given the physical demands placed on developing athletes.
 
 ---
 
 ## 🛠️ Tools & Techniques
 
-- **Power BI Desktop** — Data modelling, DAX measures, report design
-- **Power Query (M)** — Data cleaning, column standardization, 
-  transformation
-- **DAX** — KPI calculations, YoY variance, recovery metrics, 
-  severity scoring
-- **Star Schema** — Fact and dimension table
-
-🔗 [Live Report / Screenshots] | 📁 [Dataset Source]
+- **Power BI Desktop** — Data modelling, DAX measures, report design, HTML content
+- **Power Query (M)** — Data cleaning, column standardization, transformation
+- **DAX** — KPI calculations, YoY variance, recovery metrics, severity scoring
+- **Figma** - Designing of the wireframe
