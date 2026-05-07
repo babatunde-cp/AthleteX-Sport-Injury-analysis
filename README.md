@@ -1,19 +1,16 @@
 # 🏥 AthleteX Care — Sports Injury Analytics
 
-**AthleteX Care dashboard** is a multi-page Power BI dashboard designed for sports medical teams to track, analyze, and act on athlete injury data across 
-competitions, age groups, injury types, and recovery outcomes.
+**AthleteX Care dashboard** is a multi-page Power BI dashboard designed for sports medical teams to track, analyze, and act on athlete injury data across competitions, age groups, injury types, and recovery outcomes.
 
 ---
 
 ## 📌 Project Overview
 
-This dashboard gives the AthleteX Medical Team a centralized, filterable 
-view of injury intelligence from executive KPIs down to individual 
-athlete injury records, enabling smarter decisions in sports healthcare management.
+This dashboard gives the AthleteX Medical Team a centralized, dynamic view of injury intelligence from executive KPIs down to individual athlete injury records, enabling smarter decisions in sports healthcare management.
 
 ---
 
-## 📊 Key Metrics (All-Time | Full Dataset)
+## 📊 Key Metrics
 
 | Metric                    | Value           |
 |---------------------------|-----------------|
