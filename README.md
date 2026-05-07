@@ -28,12 +28,21 @@ athlete injury records, enabling smarter decisions in sports healthcare manageme
 | Fracture Recovery Rate    | 80%             |
 
 
-<img width="1319" height="826" alt="Screenshot 2026-05-07 161725" src="https://github.com/user-attachments/assets/8ea628fe-11a5-49b1-8ea0-36c21edaba7b" />
+<img width="822" height="978" alt="Join athletex" src="https://github.com/user-attachments/assets/be7fee83-b12b-4d4b-b1af-7bcc2ef3787a" />
 
 
 
-Click on the link below to access the dashboard and dataset
+
+
+
+
+
+
+
+Click on the link below to access the dashboard and dataset ↓
+
 https://app.powerbi.com/links/QB0BZR66X2?ctid=a36e1a13-c829-4154-8635-f2516711db50&pbi_source=linkShare
+
 
 #### Data Structure
 
