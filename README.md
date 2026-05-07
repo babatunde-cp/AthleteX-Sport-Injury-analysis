@@ -71,12 +71,15 @@ Muscle Strain)
 **Important Findings**
 
 *Injuries vs Treatment Cost*
+
 15,000 injuries occurred between 2022 and 2025 at a costing €27.70M on treatments. No reduction in injury rate despite data availability from previous years.This is a direct signal that existing reporting structures were not translating into preventive action.
 
 *Injury Severity Concentration*
+
 The highest injury severity rates across all competitions are Local Tournament (48.3%), Club Match and Champions League (both 48.8%), and WTA Tour (47.8%). EuroLeague (46.9%), La Liga (46.0%), and Amateur Cup (45.7%) also sit consistently above the programme average. These are predictable, competition-specific risk environments the medical team can plan resources around in advance.
 
 *Injuries by Age Group*
+
 Athletes aged 31–40 recorded the highest injury volume at 6,100 cases, followed closely by the 21–30 grouo at 5,900, together accounting for 80% of all injuries in the dataset. The under-20 group contributed 3,000 cases, the lowest volume but a population that warrants targeted load management given the physical demands placed on developing athletes.
 
 ---
