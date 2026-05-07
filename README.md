@@ -14,8 +14,8 @@ This dashboard gives the AthleteX Medical Team a centralized, dynamic view of in
 
 | Metric                    | Value           |
 |---------------------------|-----------------|
-| Total Injuries Recorded   | 15,000          |
-| Total Medical Expenses    | €27.70M         |
+| Total Injuries            | 15,000          |
+| Total Expenses            | €27.70M         |
 | Avg Recovery Days         | 48.7 days       |
 | Top Injury Type           | Fracture (2,043 cases) |
 | Full Recovery Rate        | 79.9% (11,982 athletes) |
